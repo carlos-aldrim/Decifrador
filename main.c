@@ -86,5 +86,7 @@ int main() {
         mensagem[i] = tolower(mensagem[i]);
     }
 
+    decifrar_mensagem(mensagem, idioma);
+
     return 0;
 }
